@@ -1,5 +1,7 @@
 # 本資料のURL
 
+https://github.com/hifivemania/pwa_handson_docs
+
 # 下準備
 
 このハンズオンではNode.jsを用います。各自、最初にインストールしてください。
