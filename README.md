@@ -1,12 +1,4 @@
-# 本資料のURL
-
-https://github.com/hifivemania/pwa_handson_docs
-
-# 下準備
-
-このハンズオンではNode.jsを用います。各自、最初にインストールしてください。
-
-https://nodejs.org/ja/download/
+**本資料のURL**　https://github.com/hifivemania/pwa_handson_docs
 
 ## プロジェクトベースのダウンロード
 
@@ -22,7 +14,7 @@ http://bit.ly/pwa-monaca
 
 https://github.com/hifivemania/pwa_handson
 
-解凍後、そのフォルダの中に以下のコマンドを実行します。
+解凍後、そのフォルダの中に以下のコマンドを実行します。Node.jsを事前にインストールしてください。
 
 ```
 npm i
@@ -70,7 +62,6 @@ Webサーバは http://localhost:3000/ または http://127.0.0.1:3000/ でア�
 `public/js/todo.js` を開いて、TODOの値を適当なものに変更してください。データが他の人とかぶらないようにするための処理です。
 
 ```js
-// これを必ず変更してください
 var TODO = 'TODO';
 ```
 
@@ -93,6 +84,4 @@ var TODO = 'TODO';
 
 - [第7章 Webリモートプッシュ通知を実装する](7.md)
 
-各部は独立していますので、いきなり第2部から体験も可能です。
-
-では[第1章 アプリの説明](1.md)に進みましょう。
+各部は独立していますので、第2部から体験も可能です。では[第1章 アプリの説明](1.md)に進みましょう。
