@@ -34,25 +34,33 @@ Webサーバは http://localhost:3000/ または http://127.0.0.1:3000/ でア�
 
 ## ファイル構成について
 
-サンプルのプロジェクトは以下のような構成になっています。Monacaの場合は public を www と読み替えてください。
+サンプルのプロジェクトは以下のような構成になっています（一部）。Monacaの場合は public を www と読み替えてください。
 
 ```
-├── keygen.js （WebPush用のキーファイルを生成します）
-├── package.json
+├── keygen.js（WebPush用のキーファイルを生成します）
 ├── public （Webブラウザからアクセスするファイルが入っています）
-│   ├── icon.png （WebPush用のアイコンファイルです）
-│   ├── index.html （TodoアプリのUIです）
+│   ├── icon.png（WebPush用のアイコンファイルです）
+│   ├── index.html（TodoアプリのUIです）
 │   ├── js（Webブラウザから読み込むJavaScriptファイル群です）
 │   │   ├── app.js（Service Workerの処理が記述されています）
 │   │   ├── app.push.js（WebPushに関する処理が記述されています）
-│   │   └── todo.js （Todoアプリのコードです）
+│   │   └── todo.js（Todoアプリのコードです）
 │   ├── manifest.json（アプリ用のマニフェストファイルです）
 │   ├── sw.js（Service Workerです）
 │   └── vendors（依存ライブラリです）
-│       ├── ejs-h5mod.js（テンプレートエンジンejsのファイルです）
-│       ├── h5.css（hifive用のCSSです）
-│       ├── h5.js（HTML5用のMVCフレームワークです）
-│       └── jquery.min.js（jQueryです）
+│       ├── bootstrap（UIフレームワークのBootstrapです）
+│       │   ├── css
+│       │   │   └── bootstrap.min.css
+│       │   └── js
+│       │       └── bootstrap.bundle.min.js
+│       ├── hifive
+│       │   ├── ejs-h5mod.js（テンプレートエンジンejsのファイルです）
+│       │   ├── h5.css（hifive用のCSSです）
+│       │   ├── h5.dev.js（HTML5用のMVCフレームワークです。こちらは開発用です）
+│       │   ├── h5.js（HTML5用のMVCフレームワークです）
+│       │   └── h5.js.map
+│       └── jquery（jQueryです）
+│           └── jquery.min.js
 ├── push.js（WebPushを配信します）
 └── server.js （Webサーバを立てます）
 ```
