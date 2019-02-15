@@ -14,7 +14,7 @@ http://bit.ly/pwa-monaca
 
 https://github.com/hifivemania/pwa_handson
 
-解凍後、そのフォルダの中に以下のコマンドを実行します。Node.jsを事前にインストールしてください。
+解凍後、そのフォルダの中に以下のコマンドを実行します。Node.jsを事前にインストールしてください（※バージョンは8以上を使ってください）。
 
 ```
 npm i
