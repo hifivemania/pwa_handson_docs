@@ -2,14 +2,6 @@
 
 ## プロジェクトベースのダウンロード
 
-### Monaca IDEで行う場合
-
-以下のプロジェクトをインポートして下さい。
-
-http://bit.ly/pwa-monaca
-
-### ローカルで行う場合
-
 ハンズオン用のプロジェクトベースは以下のURLでダウンロードできます。ダウンロードしたら解凍してください。
 
 https://github.com/hifivemania/pwa_handson
@@ -63,14 +55,6 @@ Webサーバは http://localhost:3000/ または http://127.0.0.1:3000/ でア�
 │           └── jquery.min.js
 ├── push.js（WebPushを配信します）
 └── server.js （Webサーバを立てます）
-```
-
-## 最初に行ってほしいこと
-
-`public/js/todo.js` を開いて、TODOの値を適当なものに変更してください。データが他の人とかぶらないようにするための処理です。
-
-```js
-var TODO = 'TODO';
 ```
 
 ## ハンズオンの内容について
